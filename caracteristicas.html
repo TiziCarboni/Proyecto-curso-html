@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Chevrolet Celta 1.4 LT</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="caracteristicas.html">Caracteristicas</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px;">Caracteristicas del Celta</h2>
+    <hr>
+    <div>
+        <table>
+            <colgroup>
+                <col style="background-color: aliceblue ;">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th>Caracteristicas: </th>
+            <th></th>
+            <th></th>
+            <tr>
+                <td>Cilindrada</td>
+                <td>1389 cm3</td>
+            </tr>
+            <tr>
+                <td>Cilindros</td>
+                <td>Válvulas 4 / 8</td>
+            </tr>
+            <tr>
+                <td>Combustible Nafta </td>
+                <td>(Chevrolet recomienda combustible Grado 3 = Premium)</td>
+            </tr>
+            <tr>
+                <td>Potencia </td>
+                <td>92cv/68.6 kw a 6000 rpm</td>
+            </tr>
+            <tr>
+                <td>Par motor </td>
+                <td>12.30 kgm a 2800 rpm</td>
+            </tr>
+            <tr>
+                <td>Alimentación Inyección electrónica multipunto</td>
+                <td>Inyección electrónica multipunto</td>
+            </tr>
+            <tr>
+                <td>Distribución </td>
+                <td>Un arbol de levas comandado por correa dentada</td>
+            </tr>
+            <tr>
+                <td>Caja de velocidades </td>
+                <td>Manual de 5 marchas</td>
+            </tr>
+            <tr>
+                <td>Dirección Piñón y cremallera</td>
+                <td>Asistida (opcional)</td>
+            </tr>
+            <tr>
+                <td>Suspensión delantera</td>
+                <td>Independiente con triángulos inferiores</td>
+            </tr>
+            <tr>
+                <td>Suspensión trasera</td>
+                <td>Semi independiente con barra de torsion</td>
+            </tr>
+            <tr>
+                <td>Neumáticos</td>
+                <td>Goodyear NCT 5. Medida: 175/65 R14. Llantas de aleacion (opcional)</td>
+            </tr>
+            <tr>
+                <td>Largo / Ancho / Alto</td>
+                <td>3799 - 1626 - 1345 mm</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <br>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
